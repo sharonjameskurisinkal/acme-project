@@ -1,0 +1,39 @@
+<!-- Home Page View -->
+<div class="home-container">
+  <div class="banner-home">
+    <div class="banner-text-home">
+      <h1>Explore local businesses with us</h1>
+      <h6>Fix your location and we have options for the best experience around the world</h6>
+    </div>
+  </div>
+  <div class="home-mat-card" fxLayout="row wrap" fxLayout.xs="column" fxLayoutAlign="space-around center"
+    fxLayoutGap="25px">
+    <mat-card *ngFor="let business of obs| async" fxFlex="calc(33%-25px)" fxFlex.sm="calc(50%-25px)"
+      class="example-card" (click)="viewDetailPage(business)">
+      <mat-card-header>
+        <mat-card-title>{{business?.name}}</mat-card-title>
+        <div class="rate">
+          <button class="rate-btn">
+            <a href="#!" class="active">{{business?.rating}}★</a>
+          </button>
+        </div>
+        <mat-card-subtitle>{{business?.location?.address1}}, {{business?.location?.city}}</mat-card-subtitle>
+
+      </mat-card-header>
+      <img mat-card-image [src]="business?.image_url" alt="Photo of {{business?.name}}" class="card-img">
+      <mat-card-content>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+          et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button class="learn-more-button" mat-button>Learn More</button>
+      </mat-card-actions>
+    </mat-card>
+
+  </div>
+  <mat-paginator [pageSizeOptions]="[12]" showFirstLastButtons aria-label="Select page of periodic elements">
+  </mat-paginator>
+</div>

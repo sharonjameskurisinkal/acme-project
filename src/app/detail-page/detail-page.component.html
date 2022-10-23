@@ -1,0 +1,70 @@
+<!-- Detail Page View -->
+<div class="detail-page-container">
+    <div class="container">
+        <div class="product-image">
+            <img [src]="selectedBusiness?.image_url" alt="" class="product-pic detail-img">
+            <div class="dots">
+                <a href="#!" class="active"><i>1</i></a>
+                <a href="#!"><i>2</i></a>
+                <a href="#!"><i>3</i></a>
+                <a href="#!"><i>4</i></a>
+            </div>
+        </div>
+        <div class="product-details">
+            <header>
+                <h1 class="title">{{selectedBusiness?.name}}</h1>
+                <span class="colorCat">{{selectedBusiness?.location?.address1}},
+                    {{selectedBusiness?.location?.city}}</span>
+                <div class="price">
+                    <span class="current">{{selectedBusiness?.price}} </span>
+                </div>
+                <div class="rate">
+                    <button class="rate-btn">
+                        <a href="#!" class="active">{{selectedBusiness?.rating}}★</a>
+                    </button> ({{selectedBusiness?.review_count}} reviews) . <ng-container
+                        *ngIf="!selectedBusiness?.is_closed;">Open</ng-container>
+                    <ng-template #closed>
+                        Closed
+                    </ng-template>
+                </div>
+            </header>
+            <article>
+                <ng-container *ngFor="let category of selectedBusiness?.categories; let last = last;">
+                    <span> {{category?.title}}<ng-container *ngIf="!last">,</ng-container></span>
+                </ng-container>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.</p>
+            </article>
+            <div class="controls">
+                <div>
+                    <h5>Address</h5>
+                    <ul class="address">
+                        <ng-container *ngFor="let address of selectedBusiness?.location?.display_address;">
+                            <li>{{address}}</li>
+                        </ng-container>
+                    </ul>
+                </div>
+                <div class="size">
+                    <h5>Contact Us</h5>
+                    <ul class="address">
+                        <li class="phone-width">{{ selectedBusiness?.display_phone}}</li>
+                        <li><a href="mailto:test@example.com">Mail@test.com</a> </li>
+                    </ul>
+                </div>
+                <div class="qty">
+                    <h5>Aminities</h5>
+                    <ul class="address">
+                        <li>Free Wifi</li>
+                        <li> Free Parking</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="visit-website-btn">
+                <button type="button">
+                    <a class="website-btn" [href]="selectedBusiness?.url" target="_blank">Visit Website</a>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>

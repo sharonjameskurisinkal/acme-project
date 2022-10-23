@@ -1,0 +1,263 @@
+{
+    "businesses": [
+        {
+            "id": "e3TNG60pbSm2p0fjBiPXUA",
+            "alias": "bao-sandwich-bar-waterloo",
+            "name": "Bao Sandwich Bar",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/SrN3RREXz5c5SHaTlvyt0A/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/bao-sandwich-bar-waterloo?adjust_creative=pRoXSjA7lb5_XweKPJ23Nw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=pRoXSjA7lb5_XweKPJ23Nw",
+            "review_count": 275,
+            "categories": [
+                {
+                    "alias": "vietnamese",
+                    "title": "Vietnamese"
+                },
+                {
+                    "alias": "sandwiches",
+                    "title": "Sandwiches"
+                },
+                {
+                    "alias": "asianfusion",
+                    "title": "Asian Fusion"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 43.47652544752421,
+                "longitude": -80.53004232840176
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "62 Balsam Street",
+                "address2": "Unit 106",
+                "address3": "",
+                "city": "Waterloo",
+                "zip_code": "N2L 3H2",
+                "country": "CA",
+                "state": "ON",
+                "display_address": [
+                    "62 Balsam Street",
+                    "Unit 106",
+                    "Waterloo, ON N2L 3H2",
+                    "Canada"
+                ]
+            },
+            "phone": "+15192081226",
+            "display_phone": "+1 519-208-1226",
+            "distance": 902.8820495287493
+        },
+        {
+            "id": "vq6wVKH9mYmnF7mtPYM18A",
+            "alias": "gols-lanzhou-noodle-waterloo-2",
+            "name": "Gol's Lanzhou Noodle",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/0dyIrkfsXgjmrYsGDEGqoQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/gols-lanzhou-noodle-waterloo-2?adjust_creative=pRoXSjA7lb5_XweKPJ23Nw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=pRoXSjA7lb5_XweKPJ23Nw",
+            "review_count": 95,
+            "categories": [
+                {
+                    "alias": "noodles",
+                    "title": "Noodles"
+                },
+                {
+                    "alias": "chinese",
+                    "title": "Chinese"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 43.472553,
+                "longitude": -80.536121
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "150 University Avenue W",
+                "address2": "Unit 6B",
+                "address3": null,
+                "city": "Waterloo",
+                "zip_code": "N2L 3E4",
+                "country": "CA",
+                "state": "ON",
+                "display_address": [
+                    "150 University Avenue W",
+                    "Unit 6B",
+                    "Waterloo, ON N2L 3E4",
+                    "Canada"
+                ]
+            },
+            "phone": "+15192083923",
+            "display_phone": "+1 519-208-3923",
+            "distance": 1346.567674707247
+        },
+        {
+            "id": "Gvy8gkZB7bSoxyK-Sl4RvA",
+            "alias": "ken-sushi-waterloo",
+            "name": "Ken Sushi",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/4sSEKri4E8tMuPGLmS9q1A/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/ken-sushi-waterloo?adjust_creative=pRoXSjA7lb5_XweKPJ23Nw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=pRoXSjA7lb5_XweKPJ23Nw",
+            "review_count": 133,
+            "categories": [
+                {
+                    "alias": "sushi",
+                    "title": "Sushi Bars"
+                }
+            ],
+            "rating": 4.0,
+            "coordinates": {
+                "latitude": 43.4735348194571,
+                "longitude": -80.5371031915133
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "256 Phillip Street",
+                "address2": "",
+                "address3": null,
+                "city": "Waterloo",
+                "zip_code": "N2L 0W3",
+                "country": "CA",
+                "state": "ON",
+                "display_address": [
+                    "256 Phillip Street",
+                    "Waterloo, ON N2L 0W3",
+                    "Canada"
+                ]
+            },
+            "phone": "+15198837272",
+            "display_phone": "+1 519-883-7272",
+            "distance": 1259.7864171217332
+        },
+        {
+            "id": "I3Lp5BoPy-BJ1MYTKoJF1Q",
+            "alias": "bhimas-warung-waterloo",
+            "name": "Bhima's Warung",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/F0AjCydmH3S-dEZ5lCNTkA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/bhimas-warung-waterloo?adjust_creative=pRoXSjA7lb5_XweKPJ23Nw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=pRoXSjA7lb5_XweKPJ23Nw",
+            "review_count": 106,
+            "categories": [
+                {
+                    "alias": "indonesian",
+                    "title": "Indonesian"
+                }
+            ],
+            "rating": 4.0,
+            "coordinates": {
+                "latitude": 43.4774177316289,
+                "longitude": -80.5250037834048
+            },
+            "transactions": [],
+            "price": "$$$",
+            "location": {
+                "address1": "262 King Street N",
+                "address2": "",
+                "address3": "",
+                "city": "Waterloo",
+                "zip_code": "N2J 2Y9",
+                "country": "CA",
+                "state": "ON",
+                "display_address": [
+                    "262 King Street N",
+                    "Waterloo, ON N2J 2Y9",
+                    "Canada"
+                ]
+            },
+            "phone": "+15197470722",
+            "display_phone": "+1 519-747-0722",
+            "distance": 996.0477730536575
+        },
+        {
+            "id": "kZD4WFp21Y1GqRX32kSNrQ",
+            "alias": "the-poké-box-waterloo",
+            "name": "The Poké Box",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/FH95lhaL7SPTitc2o77TQQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/the-pok%C3%A9-box-waterloo?adjust_creative=pRoXSjA7lb5_XweKPJ23Nw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=pRoXSjA7lb5_XweKPJ23Nw",
+            "review_count": 79,
+            "categories": [
+                {
+                    "alias": "salad",
+                    "title": "Salad"
+                },
+                {
+                    "alias": "poke",
+                    "title": "Poke"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 43.47728,
+                "longitude": -80.52575
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "255 King Street N",
+                "address2": "",
+                "address3": "",
+                "city": "Waterloo",
+                "zip_code": "N2J 4V2",
+                "country": "CA",
+                "state": "ON",
+                "display_address": [
+                    "255 King Street N",
+                    "Waterloo, ON N2J 4V2",
+                    "Canada"
+                ]
+            },
+            "phone": "+15199540363",
+            "display_phone": "+1 519-954-0363",
+            "distance": 968.4019669929218
+        },
+        {
+            "id": "ADYYLqtREtu9WNtOSeTrMw",
+            "alias": "osmows-waterloo-3",
+            "name": "Osmow's",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/PDSuxxx_YsR1i5LNEGgLkw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/osmows-waterloo-3?adjust_creative=pRoXSjA7lb5_XweKPJ23Nw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=pRoXSjA7lb5_XweKPJ23Nw",
+            "review_count": 110,
+            "categories": [
+                {
+                    "alias": "mediterranean",
+                    "title": "Mediterranean"
+                }
+            ],
+            "rating": 4.0,
+            "coordinates": {
+                "latitude": 43.4762316,
+                "longitude": -80.5256177
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "247 King Street N",
+                "address2": "",
+                "address3": "",
+                "city": "Waterloo",
+                "zip_code": "N2J 2Y7",
+                "country": "CA",
+                "state": "ON",
+                "display_address": [
+                    "247 King Street N",
+                    "Waterloo, ON N2J 2Y7",
+                    "Canada"
+                ]
+            },
+            "phone": "+15198840818",
+            "display_phone": "+1 519-884-0818",
+            "distance": 1074.8695603255558
+        }
+    ],
+    "total": 330,
+    "region": {
+        "center": {
+            "longitude": -80.5327216,
+            "latitude": 43.4844091
+        }
+    }
+}

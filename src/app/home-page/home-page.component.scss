@@ -1,0 +1,140 @@
+
+// start of home page style
+
+$bgb: #ff4164;
+$bgt: #ff886b;
+
+* {
+  font-family: 'Oswald', sans-serif;
+}
+
+.example-card {
+  max-width: 400px;
+  margin-bottom: 2%;
+}
+
+
+.card-img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+}
+
+
+
+.banner-home h1 {
+  padding-top: 3px;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.banner-home h6 {
+  padding-top: 1%;
+  font-size: medium;
+}
+
+.banner-home h1,
+.banner-home h3,
+.banner-home h6 {
+  margin: 0;
+  text-shadow: 2px 2px 6px #000;
+  text-align: center;
+}
+
+.banner-home {
+  color: white;
+  background-image: url('../../assets/images/image1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 360px;
+  background-size: 100% 100%;
+}
+
+.banner-text-home {
+  padding-top: 50px;
+}
+
+@media (max-width: 768px) {
+  .banner-home {
+    background-image: url('../../assets/images/image1-mob.jpg');
+  }
+}
+
+.home-mat-card {
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+.learn-more-button {
+  display: flex;
+  border: 0;
+  padding: 5px 7px;
+  color: white;
+  align-items: center;
+  border-radius: 7px;
+  cursor: pointer;
+  background: linear-gradient(to bottom, $bgt 0%, $bgb 100%);
+  box-shadow: 0 10px 30px 0 rgba($bgt, 0.7);
+  transition: 200ms;
+
+  &:hover {
+    background: linear-gradient(to bottom, $bgb 0%, $bgt 100%);
+  }
+
+  >img {
+    width: 31px;
+  }
+
+  >span {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-left: 10px;
+    color: white;
+  }
+}
+
+
+.rate {
+  position: static;
+  margin-top: 10px;
+
+  a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    cursor: default;
+
+    &.active,
+    &:hover {
+      color: white;
+    }
+  }
+}
+
+.rate-btn {
+  border: 0;
+  padding: 2px 3px;
+  align-items: center;
+  border-radius: 7px;
+  background: linear-gradient(to bottom, #ff886b 0%, #ff4164 100%);
+  box-shadow: 0 10px 30px 0 rgb(255 136 107 / 70%);
+  transition: 200ms;
+}
+
+.home-container {
+  margin-top: 3%;
+  background-color: floralwhite;
+
+}
+
+.detail-img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+
+// end of home page styles
